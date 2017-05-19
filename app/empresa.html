@@ -5,80 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>this.veloper - Empresa</title>
+    <link rel="stylesheet" href="css/fontface.css">
     <link href="css/foundation.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/ico" href="fav.ico"/>
-
-    <style>
-    .divNav{
-      margin: 0 auto;
-    }
-
-    #divMenuPrincipal{
-      margin-top: 20px;
-    }
-    .menu li{
-      width: 180px;  
-          
-    }
-    .bg-blue {
-      background-color: #818eba;
-    }
-    .bg-black {
-      background-color: #333;
-    }
-    .text-white {
-      color: #666;
-    }
-    .text-black {
-       color: #333;
-    }
-    .shadow {
-      box-shadow: 2px 2px 5px #333;
-      transition:box-shadow .2s;
-    }
-    .shadow:hover {
-      box-shadow: 5px 5px 10px #333;
-      cursor:pointer;
-    }
-    .menu li a{
-      width: 180px; 
-      color: #818eba;
-      text-align:center;     
-    }
-    .menu li a:hover{
-      color: #fff;
-      border-bottom:1px solid #fff;
-      border-width: 2px;  
-    }
-
-    #topHeader{
-        background-color: #000;
-        border-bottom: 1px solid #3a393c;
-        padding: 20px 0px 20px 0px;
-    }
-
-    </style>
+    
   </head>
    <body>
      <header id="topHeader" class="expanded row">
        <div class="row">        
-          <div id="divLogo" class="large-4 columns">
+          <div id="divLogo" class="large-3 column">
             <picture>
-              <img src="img/logopng.png" alt="this.veloper">
+             <a href="#"> <img id='logo' src="img/logopng.png" alt="this.veloper"></a>
             </picture>
           </div>
-          <div id="divMenuPrincipal" class="large-8 columns">
+          <div id="divMenuPrincipal" class="large-5 column">
              <nav class="divNav">
                   <ul class="menu">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Empresa e Produtos</a></li>
-                      <li><a href="#">Fale Conosco</a></li>
-                      <!--<li><a href="#">Four</a></li>-->
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="empresa.html">Empresa e Produtos</a></li>
+                      <li><a href="contato.html">Fale Conosco</a></li>
                   </ul>
              </nav> 
+          </div>     
+          <div id="divMenuInfo" class="large-4 column">
+                <p><i class="fa fa-map-marker faInfoMenu" aria-hidden="true"></i><strong>Endereço:</strong> Rua 10a, 2605 , São Miguel. Rio Claro - SP</p>
+                <p><i class="fa fa-map-marker faInfoMenu" aria-hidden="true"></i><strong>Email:</strong> contato@thisveloper.com.br</p>
           </div>       
-       </header>
-        <div class="row">
+      </header>
+        <div class="row" style="margin-top:20px">
             <div class="large-12 columns">
               <h2 class="text-center">Sobre a empresa</h2>
             </div>
@@ -118,7 +73,7 @@
                     <div class="card-divider bg-blue text-black">
                       <h5 class="text-center">Sistemas Web</h5>
                     </div>
-                    <img src="">
+                    <img src="img/cards/web-sistem.png">
                     <div class="card-section">
                       <h4>Desenvolvimento de sistemas</h4>
                       <p class="text-justify">Desenvolvemos seu sistema em plataforma web, com soluções personalizadas e ideias inovadoras para que sua necessidade seja atendida da melhor forma possível. </p>
@@ -130,7 +85,7 @@
                     <div class="card-divider bg-blue text-black">
                       <h5 class="text-center">Sistemas Fiscais</h5>
                     </div>
-                    <img src="">
+                    <img src="img/cards/fiscal.png">
                     <div class="card-section">
                       <h4>Integração com módulo fiscal</h4>
                       <p class="text-justify">Precisa emitir documentos fiscais? Temos a solução para você! Oferecemos a possibilidade de desenvolver um sistema personalizado para o seu negócio, sempre prezando pela segurança e integridade das suas informações</p>
