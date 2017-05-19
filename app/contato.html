@@ -1,32 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Título da página</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-   <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Título da página</title>
+  <link href="css/foundation.min.css" rel="stylesheet">
+</head>
+<body>
+ <section>
+   <form>
+     <div class="expanded row">
+      <div class="row">
 
+        <div class="small-3 large-2 columns">
+          <span class="prefix">Nome: </span>
+        </div>
+        <div class="small-9 large-10 columns">
+          <input id="nome" type="text" placeholder="Digite seu nome completo">
+        </div>
+      </div>
+
+      <div class="row">
+        
+        <div class="small-3 large-2 columns">
+          <span class="prefix">E-mail: </span>
+        </div>
+        <div class="small-9 large-10 columns">
+          <input id="email" type="text" placeholder="example@example.com.br">
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="small-3 large-2 columns">
+          <span class="prefix">Assunto: </span>
+        </div>
+        <div class="small-9 large-10 columns">
+          <input id="assunto" type="text" placeholder="Assunto">
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        
+        <div class="small-3 large-2 columns">
+          <span class="prefix">Departamento: </span>
+        </div>
+        <div class="small-9 large-10 columns">
+          <select id="select">
+            <option value="desenvolve">Desenvolvimento</option>
+            <option value="financeiro">Financeiro</option>
+            <option value="suporte">Suporte</option>
+        </div>
+      </div>
+
+      <div class="row">
     
-      <form action="">
-        <input id="nome" type="text">
-        <input id="email" type="email">
-        <input id="telefone" type="number">
-        <input id="assunto" type="text">
-          <select name="" id="departamento">
-            <option value="0">Suporte</option>
-            <option value="1">Financeiro</option>
-            <option value="2">Departamento Pessoal</option>
-            <option value="3">Desenvolvimento</option>
-          </select>
-        <textarea name="" id="" cols="30" rows="10"></textarea>       
-      </form>     
+        <div class="small-9 large-10 columns">
+          <textarea class="large-12 columns" placeholder="Digite aqui seu texto"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+    
+        <div class="small-9 large-10 columns">
+          <a href="#" class="button expand small-9 large-10 columns">Enviar</a>
+          </div>  
+
+          </div>
+
+
+
+
+
+
+
+    </div>
+  </form>
+  <section>
+
+
+
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
-</html>
+  </html>
