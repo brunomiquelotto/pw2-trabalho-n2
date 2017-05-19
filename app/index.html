@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Título da página</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/foundation.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="fav.ico"/>
+
+    <style>
+    .divNav{
+      margin: 0 auto;
+    }
+
+    .menu li{
+      width: 180px;
+    }
+
+    </style>
   </head>
    <body>
+     <header id="topHeader" class="expanded row">
+       <div class="row">        
+          <div id="divLogo" class="large-4 columns">
+            <picture>
+              <img src="#" alt="this.veloper">
+            </picture>
+          </div>
+          <div id="divMenuPrincipal" class="large-8 columns">
+             <nav class="divNav">
+                  <ul class="menu">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">A Empresa</a></li>
+                      <li><a href="#">Fale Conosco</a></li>
+                      <!--<li><a href="#">Four</a></li>-->
+                  </ul>
+             </nav> 
+          </div>       
+       </header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
   </body>
 </html>
