@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Título da página</title>
+    <title>this.veloper - Empresa</title>
     <link href="css/foundation.min.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/ico" href="fav.ico"/>
 
@@ -13,8 +13,48 @@
       margin: 0 auto;
     }
 
+    #divMenuPrincipal{
+      margin-top: 20px;
+    }
     .menu li{
-      width: 180px;
+      width: 180px;  
+          
+    }
+    .bg-blue {
+      background-color: #818eba;
+    }
+    .bg-black {
+      background-color: #333;
+    }
+    .text-white {
+      color: #666;
+    }
+    .text-black {
+       color: #333;
+    }
+    .shadow {
+      box-shadow: 2px 2px 5px #333;
+      transition:box-shadow .2s;
+    }
+    .shadow:hover {
+      box-shadow: 5px 5px 10px #333;
+      cursor:pointer;
+    }
+    .menu li a{
+      width: 180px; 
+      color: #818eba;
+      text-align:center;     
+    }
+    .menu li a:hover{
+      color: #fff;
+      border-bottom:1px solid #fff;
+      border-width: 2px;  
+    }
+
+    #topHeader{
+        background-color: #000;
+        border-bottom: 1px solid #3a393c;
+        padding: 20px 0px 20px 0px;
     }
 
     </style>
@@ -24,47 +64,82 @@
        <div class="row">        
           <div id="divLogo" class="large-4 columns">
             <picture>
-              <img src="#" alt="this.veloper">
+              <img src="img/logopng.png" alt="this.veloper">
             </picture>
           </div>
           <div id="divMenuPrincipal" class="large-8 columns">
              <nav class="divNav">
                   <ul class="menu">
                       <li><a href="#">Home</a></li>
-                      <li><a href="#">A Empresa</a></li>
+                      <li><a href="#">Empresa e Produtos</a></li>
                       <li><a href="#">Fale Conosco</a></li>
+                      <!--<li><a href="#">Four</a></li>-->
                   </ul>
              </nav> 
           </div>       
        </header>
-        <div class="expanded row">
-          <div>
+        <div class="row">
             <div class="large-12 columns">
-              <h2>Sobre a empresa</h2>
+              <h2 class="text-center">Sobre a empresa</h2>
             </div>
             <div class="small-12 large-12 columns">
               <h3>Quem somos</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod rem velit, ducimus, sit optio consequatur tempora eligendi similique pariatur, suscipit fugit. Illum sit, aspernatur. Iusto excepturi repellat maiores inventore culpa!</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod rem velit, ducimus, sit optio consequatur tempora eligendi similique pariatur, suscipit fugit. Illum sit, aspernatur. Iusto excepturi repellat maiores inventore culpa!</p>
             </div>  
             <div class="small-12 large-4 columns">
               <h3>Missão</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla iste ipsum rerum iusto consectetur laudantium doloribus dolor, nobis praesentium officia quas, quasi impedit. Itaque reprehenderit, blanditiis fugiat voluptatum numquam quidem.</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla iste ipsum rerum iusto consectetur laudantium doloribus dolor, nobis praesentium officia quas, quasi impedit. Itaque reprehenderit, blanditiis fugiat voluptatum numquam quidem.</p>
             </div>
             <div class="small-12 large-4 columns">
               <h3>Visão</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum hic, voluptate error commodi placeat libero, iure dolore expedita quis ipsa deserunt, totam reiciendis ex tempore aliquam. Ratione quis, ad!</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum hic, voluptate error commodi placeat libero, iure dolore expedita quis ipsa deserunt, totam reiciendis ex tempore aliquam. Ratione quis, ad!</p>
             </div>
             <div class="small-12 large-4 columns">
-            <h3>Valores</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus doloribus fuga laborum distinctio cum doloremque consequatur, dignissimos debitis necessitatibus ipsa labore nobis nulla. Obcaecati blanditiis possimus quae esse necessitatibus ratione.</p>
+              <h3>Valores</h3>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus doloribus fuga laborum distinctio cum doloremque consequatur, dignissimos debitis necessitatibus ipsa labore nobis nulla. Obcaecati blanditiis possimus quae esse necessitatibus ratione.</p>
             </div>
-            <div></div>
-            <h3>Produtos e servicos</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa laborum, iusto itaque, molestias natus omnis, distinctio harum pariatur fugiat iste deleniti! Porro accusantium quo praesentium magnam consequuntur cumque. Optio, quis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perferendis culpa, tempora ratione ducimus delectus dolores. Quidem eum, corporis nisi quas fugit inventore minima quo officia, distinctio facere cumque repellendus.</p>
+            <div class="small-12">
+              <h3>Produtos e servicos</h3>
+              <div class="row">
+                <div class="small-12 medium-4 columns">
+                  <div class="card bg-black text-white shadow">
+                    <div class="card-divider bg-blue text-black">
+                      <h5 class="text-center">Websites</h5>
+                    </div>
+                    <img src="">
+                    <div class="card-section">
+                      <h4>Desenvolvimento de websites</h4>
+                      <p class="text-justify">Utilizando as mais atuais tecnologias do mercado desenvolvemos o site da sua empresa, do seu evento e da sua organização. Nossos sites são responsivos (funcionam em qualquer dispositivo) e com uma equipe especializada em design.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-4 columns">
+                  <div class="card bg-black text-white shadow">
+                    <div class="card-divider bg-blue text-black">
+                      <h5 class="text-center">Sistemas Web</h5>
+                    </div>
+                    <img src="">
+                    <div class="card-section">
+                      <h4>Desenvolvimento de sistemas</h4>
+                      <p class="text-justify">Desenvolvemos seu sistema em plataforma web, com soluções personalizadas e ideias inovadoras para que sua necessidade seja atendida da melhor forma possível. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-4 columns">
+                  <div class="card bg-black text-white shadow">
+                    <div class="card-divider bg-blue text-black">
+                      <h5 class="text-center">Sistemas Fiscais</h5>
+                    </div>
+                    <img src="">
+                    <div class="card-section">
+                      <h4>Integração com módulo fiscal</h4>
+                      <p class="text-justify">Precisa emitir documentos fiscais? Temos a solução para você! Oferecemos a possibilidade de desenvolver um sistema personalizado para o seu negócio, sempre prezando pela segurança e integridade das suas informações</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          
-        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
   </body>
