@@ -1,7 +1,3 @@
 $(document).ready(function() {
-    $('.card').click(cardClick);
+    $(document).foundation();
 });
-
-var cardClick = function() {
-    $(this).toggleClass('height500');
-}
