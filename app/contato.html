@@ -1,91 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Título da página</title>
   <link href="css/foundation.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
- <section>
-   <form>
-     <div class="expanded row">
-      <div class="row">
-
-        <div class="small-3 large-2 columns">
-          <span class="prefix">Nome: </span>
-        </div>
-        <div class="small-9 large-10 columns">
-          <input id="nome" type="text" placeholder="Digite seu nome completo">
+  <header id="topHeader" class="expanded row">
+    <div class="row">
+      <div id="divLogo" class="large-3 column">
+        <picture>
+          <a href="#"> <img id='logo' src="img/logopng.png" alt="this.veloper"></a>
+        </picture>
+      </div>
+      <div id="divMenuPrincipal" class="large-5 column">
+        <nav class="divNav">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="empresa.html">Empresa e Produtos</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="divMenuInfo" class="large-4 columns">
+        <p><i class="fa fa-map-marker faInfoMenu" aria-hidden="true"></i><strong>Endereço:</strong> Rua 10a, 2605 , São Miguel.
+          Rio Claro - SP</p>
+          <p><i class="fa fa-map-marker faInfoMenu" aria-hidden="true"></i><strong>Email:</strong> contato@thisveloper.com.br</p>
         </div>
       </div>
+    </header>
 
+    <section>
       <div class="row">
-        
-        <div class="small-3 large-2 columns">
-          <span class="prefix">E-mail: </span>
-        </div>
-        <div class="small-9 large-10 columns">
-          <input id="email" type="text" placeholder="example@example.com.br">
-        </div>
-      </div>
-      <div class="row">
-        
-        <div class="small-3 large-2 columns">
-          <span class="prefix">Assunto: </span>
-        </div>
-        <div class="small-9 large-10 columns">
-          <input id="assunto" type="text" placeholder="Assunto">
-        </div>
+      <div class="small-12 large-5 columns" id="msg-form">
+        <h1>Formulário de Contato</h1>
+        <p>Preencha o Formulário de contato ao lado que nossa equipe especializada entrará em contato com você o mais breve possível
+          !</p>
+          <p>Endereço: Rua 10-A, 2605 - Vila São Miguel, Rio Claro - SP</p>
+          
       </div>
 
+  
+        <div class="small-12 large-7 columns">
+          <form id="position-form">
 
 
-      <div class="row">
-        
-        <div class="small-3 large-2 columns">
-          <span class="prefix">Departamento: </span>
+            <div class="input-group">
+              <span class="input-group-label ">Nome: </span>
+              <input class="input-group-field bordas-form" type="text" placeholder="Nome">
+            </div>
+
+
+
+            <div class="input-group">
+              <span class="input-group-label">E-mail: </span>
+              <input id="email" class="input-group-field bordas-form" type="text" placeholder="example@example.com">
+            </div>
+
+
+
+
+
+            <div class="input-group">
+              <span class="input-group-label">Assunto: </span>
+              <input id="assunto" class="input-group-field bordas-form" type="text" placeholder="Assunto">
+            </div>
+
+
+
+
+            <div class="input-group">
+              <span class="input-group-label">Departamento: </span>
+              <select style="height:50px;" class="nMargin bordas-form">
+                <option value="desenvolve">Desenvolvimento</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="suporte">Suporte</option>
+              </select>
+            </div>
+
+
+
+
+
+            <textarea id="areatexto" class="small-9 large-12 columns bordas-form" placeholder="Digite aqui seu texto"></textarea>
+
+
+
+
+
+            <a href="#" class="button expand small-9 large-10 columns sizebtn bordas-form">Enviar</a>
+            
+          </form>
         </div>
-        <div class="small-9 large-10 columns">
-          <select id="select">
-            <option value="desenvolve">Desenvolvimento</option>
-            <option value="financeiro">Financeiro</option>
-            <option value="suporte">Suporte</option>
-        </div>
-      </div>
-
-      <div class="row">
-    
-        <div class="small-9 large-10 columns">
-          <textarea class="large-12 columns" placeholder="Digite aqui seu texto"></textarea>
-        </div>
-      </div>
-
-      <div class="row">
-    
-        <div class="small-9 large-10 columns">
-          <a href="#" class="button expand small-9 large-10 columns">Enviar</a>
-          </div>  
-
-          </div>
-
-
-
-
-
-
-
-    </div>
-  </form>
-  <section>
-
-
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-  </html>
+      </section>
+      <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.6559842634326!2d-47.54402574424502!3d-22.37959378528241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7dbc178d008ad%3A0xacbcc9b43289bba8!2sR.+10-A%2C+2605+-+Vila+Sao+Miguel%2C+Rio+Claro+-+SP%2C+13506-401!5e0!3m2!1spt-BR!2sbr!4v1495582573864"
+          width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </section>
+</body>
+</html> 

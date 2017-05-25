@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     #divMenuPrincipal{
       float: left;
       margin-top:10px;
@@ -39,15 +40,76 @@
        font-family: "Roboto Regular";
       font-size: 12px;
     }
+=======
+#divMenuPrincipal{
+  float: left;
+  margin-top:10px;
+}
+.menu li{
+  border-right: 1px solid #acacac;
+}
 
-    .item > img{
-      width: 100%;
+  .menu li a{
+  width: 140px; 
+  color: #3e3d40;
+  text-align:center;
+  font-size: 14px; 
+  font-family: "Roboto Bold";   
+}
+.menu li a:hover{
+  color: #818eba;
+  border-width: 2px;  
+}
 
-    }
-    .owl-height{
-      height: 300px
-    }
+#topHeader{
+    background-color: #eee;
+    border-bottom: 1px solid rgba(58, 57, 60, 0.2);
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 8px #000;
+    width: 100%;
+}
+.faInfoMenu{
+  font-size: 14px;
+  margin-right: 5px;
+}
+#divMenuInfo p{
+  font-family: 13px;  
+  margin-bottom: 2px;
+    font-family: "Roboto Regular";
+  font-size: 12px;
+}
 
+.item > img{
+  width: 100%;
+>>>>>>> f8ecbed64211fbdd32b63b625ee27f25f12a95d6
+
+}
+.owl-height{
+  height: 300px
+}
+
+.bg-blue {
+  background-color: #818eba;
+}
+.bg-black {
+  background-color: #e3e3e3;
+}
+.text-white {
+  color: #666;
+}
+.text-black {
+    color: #333;
+}
+.shadow {
+  box-shadow: 2px 2px 5px #333;
+  transition:box-shadow .2s;
+}
+.shadow:hover {
+  box-shadow: 5px 5px 10px #333;
+  cursor:pointer;
+}
+
+<<<<<<< HEAD
     .bg-blue {
       background-color: #818eba;
     }
@@ -141,3 +203,32 @@
       background-color:#000;
       height: 300px;
     }
+=======
+.nMargin{
+  margin:0;
+}
+
+#position-form{
+  padding-top: 20px;
+  padding-left: 10px;
+  float:right;  
+}
+
+.sizebtn{
+  width: 100%;
+}
+
+#msg-form{
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+
+.bordas-form{
+  border: 1px solid light-gray;
+  border-radius: 2px; 
+}
+
+#areatexto{
+  height:100px;
+}
+>>>>>>> f8ecbed64211fbdd32b63b625ee27f25f12a95d6
