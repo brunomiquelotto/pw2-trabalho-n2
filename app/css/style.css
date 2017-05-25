@@ -23,10 +23,6 @@
     border-bottom: 1px solid rgba(58, 57, 60, 0.2);
     padding: 10px 0px 10px 0px;
     box-shadow: 0px 1px 8px #000;
-    position: fixed;
-    overflow: hidden;
-    top:0;
-    z-index: 999;
     width: 100%;
 }
 .faInfoMenu{
@@ -67,4 +63,42 @@
 .shadow:hover {
   box-shadow: 5px 5px 10px #333;
   cursor:pointer;
+}
+
+.nMargin{
+  margin:0;
+}
+
+#position-form{
+  padding-top: 40px;
+  padding-left: 50px;
+  float:right;  
+}
+
+.sizebtn{
+  width: 100%;
+}
+
+#msg-form{
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+
+.bordas-form{
+  border: 1px solid light-gray;
+  border-radius: 2px; 
+}
+
+#areatexto{
+  height:100px;
+}
+
+@media screen and(max-width: 768px){
+    #position-form{
+        flex-flow: row-reverse wrap;
+    }
+}
+
+@media screen and(max-width: 425px){
+  
 }
