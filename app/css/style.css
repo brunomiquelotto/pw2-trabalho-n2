@@ -176,10 +176,14 @@
 }
 
 #msg-form{
-  font-family: "Comic Sans MS";
-  font-size: 20px;
+  font-family: "Helvetica Neue,Helvetica,Roboto,Arial,sans-serif";
+  font-size: 25px;
 }
 
+#h1form{
+  font-family: "Roboto Bold";
+  font-size: 40px;
+}
 .bordas-form{
   border: 1px solid light-gray;
   border-radius: 2px; 
@@ -188,3 +192,15 @@
 #areatexto{
   height:100px;
 }
+
+ #bannercontato{
+      background: url('../img/banners/thisbanners-contato.jpg') center top no-repeat;
+      /* Set a specific height /*/
+    height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
