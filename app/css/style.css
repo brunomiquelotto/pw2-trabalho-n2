@@ -23,7 +23,7 @@
         border-bottom: 1px solid rgba(58, 57, 60, 0.2);
         padding: 10px 0px 10px 0px;
         box-shadow: 0px 1px 8px #000;
-        /*position: fixed;*/
+        position: fixed;
         overflow: hidden;
         top:0;
         /*z-index: 999;*/
@@ -117,7 +117,8 @@
     }
 
     .sectionsRows{
-      padding:40px 0px;
+      padding:60px 0px;
+      background-color:#f9f9f9;
     }
     .btnQuemSomos{
       float:right;
@@ -133,13 +134,18 @@
     text-align: center;
    }
     .infoQSI div{
-        text-align: center;
+      text-align: center;
     }
+
+    .infoQSI div:last-child{
+    margin-right:  0px;
+    }
+
     .infoQSI div p {
         text-align: justify;
     }
     .quemSomosRow{
-      margin-bottom:50px; 
+      margin-bottom:20px; 
     }
 
     p{
@@ -188,10 +194,14 @@
 }
 
 #msg-form{
-  font-family: "Comic Sans MS";
-  font-size: 20px;
+  font-family: "Helvetica Neue,Helvetica,Roboto,Arial,sans-serif";
+  font-size: 25px;
 }
 
+#h1form{
+  font-family: "Roboto Bold";
+  font-size: 40px;
+}
 .bordas-form{
   border: 1px solid light-gray;
   border-radius: 2px; 
@@ -200,7 +210,6 @@
 #areatexto{
   height:100px;
 }
-
 .tabs-title{
   font-family: "Roboto Bold";
   font-size: 30px !important;
@@ -225,4 +234,42 @@ color:#8a98bf;
 .is-active{
   background-color: #8a98bf;
   color:#fff !important;
+}
+ #bannercontato{
+      background: url('../img/banners/thisbanners-contato.jpg') center top no-repeat;
+      /* Set a specific height /*/
+    height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    .large-4.column.bloco-iconesQuemSomos {
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+    width: 410px;
+    float: left;
+    margin-right: 35px;
+
+}
+
+.bloco-iconesQuemSomos:first-child{
+    margin-left:25px;
+}
+
+.bloco-iconesQuemSomos:last-child{
+    margin-right:24px !important;
+    float: left !important;
+}
+
+.bloco-iconesQuemSomos i {
+  margin: 15px 0 20px 0;  
+}
+
+#example-tabs li a i.fa{
+  font-size: 30px;
 }
