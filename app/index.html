@@ -47,7 +47,7 @@
         <div class="row quemSomosRow">
         <div class="large-7 column quemSomosBl">          
          
-              <h1>QUEM SOMOS</h1>
+              <h1>QUEM SOMOS <hr></h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet molestias, 
                 alias facere eaque id. Vitae consequuntur ex, recusandae sed, consectetur 
                 similique ullam ipsam provident inventore minus perferendis excepturi odio harum!</p>
@@ -60,7 +60,7 @@
         </div>
         <div class="large-5 column imgQuemSomos">    
           
-          <img class="" src="img/logao.png" alt="quem somos">
+          <img class="" src="img/fachada.jpg" alt="quem somos">
           
         </div>
 
@@ -87,22 +87,20 @@
       </section>
 
       <section class="row expanded sectionsRows sectionBG1">
+        <p>VELOCIDADE - QUALIDADE - SEGURANCA - TRANSPARENCIA - MOBILIDADE - SUCESSO</p>
         
       </section>
 
       <section class="row sectionsRows nossosServicos">
-        <h1>NOSSOS SERVIÇOS</h1>
+        <h1>NOSSOS SERVIÇOS <hr></h1>
         <ul class="tabs" data-responsive-accordion-tabs="tabs medium-accordion large-tabs" id="example-tabs">
-  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
-  <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
-  <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
-  <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
-  <li class="tabs-title"><a href="#panel5">Tab 5</a></li>
-  <li class="tabs-title"><a href="#panel6">Tab 6</a></li>
-</ul>
+            <li  class="tabs-title large-4 columns"><a href="#panel1" id="sdesktop">Sistemas Desktop</a></li>
+            <li  class="tabs-title large-4 columns"><a href="#panel2" id="sweb">Sistemas Web</a></li>
+            <li  class="tabs-title large-4 columns"><a href="#panel3" id="sapp">Sistemas App</a></li>
+        </ul>
 
 <div class="tabs-content" data-tabs-content="example-tabs">
-  <div class="tabs-panel is-active" id="panel1">
+  <div class="tabs-panel" id="panel1">
     <p>one</p>
     <p>Check me out! I'm a super cool Tab panel with text content!</p>
   </div>
@@ -112,17 +110,7 @@
   <div class="tabs-panel" id="panel3">
     <p>three</p>
     <p>Check me out! I'm a super cool Tab panel with text content!</p>
-  </div>
-  <div class="tabs-panel" id="panel4">
-    <p>four</p>
-  </div>
-  <div class="tabs-panel" id="panel5">
-    <p>five</p>
-    <p>Check me out! I'm a super cool Tab panel with text content!</p>
-  </div>
-  <div class="tabs-panel" id="panel6">
-    <p>six</p>
-  </div>
+  </div>  
 </div>
       </section>
 
@@ -143,7 +131,42 @@
     <script src="js/vendor/foundation.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script type="text/javascript" src="js/carrossel.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".tabs-title a").click(function(){
+              var clicado = $(this).attr('id');  
 
+              if(clicado) {         
+              $(".tabs-title a").removeClass("ativaBlocoServico");
+              $(".tabs-title a").removeClass("is-active");
+              $(this).addClass("is-active");
+              }
+              switch(clicado) {
+                  case 'sdesktop':
+                      $("#panel3").removeClass('ativaBlocoServico');
+                      $("#panel2").removeClass('ativaBlocoServico');
+                      $("#panel1").addClass('ativaBlocoServico');
+                      break;
+                  case 'sweb':
+                      $("#panel3").removeClass('ativaBlocoServico');
+                      $("#panel1").removeClass('ativaBlocoServico');
+                      $("#panel2").addClass('ativaBlocoServico');
+                      break;
+                  case 'sapp':
+                      $("#panel1").removeClass('ativaBlocoServico');
+                      $("#panel2").removeClass('ativaBlocoServico');
+                      $("#panel3").addClass('ativaBlocoServico');
+                      break;
+
+                  default:
+                      $(".tabs-title a").toggle('ativaBlocoServico')
+              }
+              
+            });
+
+        });
+          
+    </script>
 
   </body>
 </html>

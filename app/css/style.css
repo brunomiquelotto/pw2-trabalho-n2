@@ -112,7 +112,8 @@
     }
 
     .imgQuemSomos img{
-      width:50%;
+      width:100%;
+      border-radius: 10px;
     }
 
     .sectionsRows{
@@ -151,10 +152,21 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 400px;
+      height: 300px;
+      color: #fff;
+      text-align: center;
+      display:block;
+      
+    }
+    .sectionBG1 p{
+        font-size: 30px;
+        font-family: "Roboto Bold";
+        display: inline-block;
+  vertical-align: middle;
     }
     .nossosServicos h1{
       text-align: center;
+      font-family: "Roboto Bold";
     }
 
     footer{
@@ -187,4 +199,30 @@
 
 #areatexto{
   height:100px;
+}
+
+.tabs-title{
+  font-family: "Roboto Bold";
+  font-size: 30px !important;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  
+
+}
+.tabs-title a{
+color:#8a98bf;
+}
+.tabs-title a:hover{
+  background-color:#8a98bf;
+  color:#fff;
+}
+
+.ativaBlocoServico{
+  display:block;
+}
+
+.is-active{
+  background-color: #8a98bf;
+  color:#fff !important;
 }
