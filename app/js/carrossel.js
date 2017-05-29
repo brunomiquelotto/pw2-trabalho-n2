@@ -3,8 +3,10 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:false,
     dots:false,
+    loop:true,
     autoplay:true,
     autoplayTimeout:4000,
+
     autoHeight: false,
     autoHeightClass: 'owl-height',
     responsive:{
@@ -12,10 +14,10 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:1
+            items:3
         },
         1000:{
-            items:1
+            items:5
         }
     }
 })
