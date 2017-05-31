@@ -1,79 +1,65 @@
-    #divMenuPrincipal{
-      float: left;
-      margin-top:20px;
-    }
-    .menu li a{
-      width: 140px; 
-      color: #fff;
-      text-align:center;
-      font-size: 14px; 
-      font-family: "Roboto Bold";   
-    }
-    .menu li a:hover{
-      color: #818eba;
-      border-width: 2px;  
-    }
-    #topHeader{
-      background-color:rgba(58, 57, 60, 0.4 );
-      border-bottom: 1px solid rgba(58, 57, 60, 0.2);
-      padding: 10px 0px 10px 0px;
-      box-shadow: 0px 1px 8px #000;
-      z-index: 9999;
-      width: 100%;
-      position:absolute;
-    }
-    .faInfoMenu{
-      font-size: 14px;
-      margin-right: 5px;
-    }
-    #divMenuInfo p{
-      font-family: 13px;
-      margin-bottom: 2px;
-      font-family: "Roboto Regular";
-      font-size: 12px;
-    }
+  body {
+    display: none;
+  }
+  #cardsProdutos {
+    opacity: 0;
+  }
+  #divMenuPrincipal{
+    float: left;
+    margin-top:20px;
+  }
+  .menu li a{
+    width: 140px;
+    color: #fff;
+    text-align:center;
+    font-size: 14px; 
+    font-family: "Roboto Bold";   
+  }
+  .menu li a:hover{
+    color: #818eba;
+    border-width: 2px;  
+  }
+  #topHeader{
+    background-color:rgba(58, 57, 60, 0.4 );
+    border-bottom: 1px solid rgba(58, 57, 60, 0.2);
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 8px #000;
+    z-index: 9999;
+    width: 100%;
+    position:absolute;
+  }
+  .faInfoMenu{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  #divMenuInfo p{
+    font-family: 13px;
+    margin-bottom: 2px;
+    font-family: "Roboto Regular";
+    font-size: 12px;
+  }
 
-    .item > img{
-      width: 100%;
+  .item > img{
+    width: 100%;
 
-    }
-    .owl-height{
-      height: 300px
-    }
+  }
+  .owl-height{
+    height: 300px
+  }
 
-    .bg-blue {
-      background-color: #818eba;
-    }
-    .bg-black {
-      background-color: #e3e3e3;
-    }
-    .text-white {
-      columns: #666;
-    }
-    .text-black {
-      color: #333;
-    }
-    .shadow {
-      box-shadow: 2px 2px 5px #333;
-      transition:box-shadow .2s;
-    }
-    .shadow:hover {
-      box-shadow: 5px 5px 10px #333;
-      cursor:pointer;
-    }
-    .bg-blue {
-      background-color: #818eba;
-    }
-    .bg-black {
-      background-color: #e3e3e3;
-    }
-    .text-white {
-      color: #666;
-    }
-    .text-black {
-     color: #333;
-   }
-   .shadow {
+  .bg-blue {
+    background-color: #818eba;
+  }
+  .bg-black {
+    background-color: #e3e3e3;
+  }
+  .text-white {
+    columns: #666;
+  }
+  .text-black {
+    color: #333;
+  }
+  .shadow {
     box-shadow: 2px 2px 5px #333;
     transition:box-shadow .2s;
   }
@@ -81,206 +67,238 @@
     box-shadow: 5px 5px 10px #333;
     cursor:pointer;
   }
-  .callAction{
-    background-color: #8a98bf;
+  .bg-blue {
+    background-color: #818eba;
   }
+  .bg-black {
+    background-color: #e3e3e3;
+  }
+  .text-white {
+    color: #666;
+  }
+  .text-black {
+    color: #333;
+  }
+  .shadow {
+  box-shadow: 2px 2px 5px #333;
+  transition:box-shadow .2s;
+}
+.shadow:hover {
+  box-shadow: 5px 5px 10px #333;
+  cursor:pointer;
+}
+.callAction{
+  background-color: #8a98bf;
+}
 
-  #banner{
-    background: url('../img/banners/bannerteste.png') center top no-repeat;
-    /* Set a specific height */
-    height: 610px; 
+#banner{
+  background: url('../img/banners/bannerteste.png') center top no-repeat;
+  /* Tamanho específico do banner */
+  height: 610px; 
 
-    /* Create the parallax scrolling effect */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #logo{
-    width: 100%;
-  }
+  /* Cria o efeito paralax */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .row.quemSomosRow {
-    margin: 0px 0px 40px;
-  }
+#bannerEmpresa {
+  background: url('../img/banners/thisbanners-empresa.jpg') center top no-repeat;
+  /* Tamanho específico do banner */
+  height: 610px; 
 
-  .imgQuemSomos{
-    text-align: center;
-  }
+  /* Cria o efeito paralax */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .imgQuemSomos img{
-    width:100%;
-    border-radius: 10px;
-  }
+#logo{
+  width: 100%;
+}
 
-  .sectionsRows{
-    padding:60px 0px;
-    background-color:#f9f9f9;
-  }
-  .btnQuemSomos{
-    float:right;
-    margin-bottom:80px;
-  }
+.row.quemSomosRow {
+  margin: 0px 0px 40px;
+}
 
-  .quemSomosBl > h1{
-    font-family: "Roboto Bold";
+.imgQuemSomos{
+  text-align: center;
+}
 
-  }
-  .infoQSI i.fa {
-    font-size: 50px;
-    text-align: center;
-  }
-  .infoQSI div{
-    text-align: center;
-  }
+.imgQuemSomos img{
+  width:100%;
+  border-radius: 10px;
+}
 
-  .infoQSI div:last-child{
-    margin-right:  0px;
-  }
+.sectionsRows{
+  padding:60px 0px;
+  background-color:#f9f9f9;
+}
+.btnQuemSomos{
+  float:right;
+  margin-bottom:80px;
+}
 
-  .infoQSI div p {
-    text-align: justify;
-  }
-  .quemSomosRow{
-    margin-bottom:20px; 
-  }
+.quemSomosBl > h1{
+  font-family: "Roboto Bold";
 
-  p{
-    font-family: "Roboto";
-    font-size: 18px;
-  }
-  .sectionBG1{
-    background: url('../img/banners/sectionpart1BG.jpg') center top no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 130px;
-    height: 300px;
-    color: #fff;
-    text-align: center;
-    display:block;
+}
+.infoQSI i.fa {
+  font-size: 50px;
+  text-align: center;
+}
+.infoQSI div{
+  text-align: center;
+}
 
-  }
-  .sectionBG1 p{
-    font-size: 30px;
-    font-family: "Roboto Bold";
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .nossosServicos h1{
-    text-align: center;
-    font-family: "Roboto Bold";
-  }
+.infoQSI div:last-child{
+  margin-right:  0px;
+}
 
-  .nMargin{
-    margin:0;
-  }
+.infoQSI div p {
+  text-align: justify;
+}
+.quemSomosRow{
+  margin-bottom:20px; 
+}
 
-  #position-form{
-    padding-top: 20px;
-    padding-left: 10px;
-    float:right;  
-  }
+p{
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.sectionBG1{
+  background: url('../img/banners/sectionpart1BG.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 130px;
+  height: 300px;
+  color: #fff;
+  text-align: center;
+  display:block;
 
-  .sizebtn{
-    width: 100%;
-  }
+}
+.sectionBG1 p{
+  font-size: 30px;
+  font-family: "Roboto Bold";
+  display: inline-block;
+  vertical-align: middle;
+}
+.nossosServicos h1{
+  text-align: center;
+  font-family: "Roboto Bold";
+}
 
-  #msg-form{
-    font-family: "Roboto Regular";
-    font-size: 25px;
-  }
+.nMargin{
+  margin:0;
+}
 
-  #h1form{
-    font-family: "Roboto Bold";
-    font-size: 40px;
-  }
-  .bordas-form{
-    border: 1px solid light-gray;
-    border-radius: 2px; 
-  }
+#position-form{
+  padding-top: 20px;
+  padding-left: 10px;
+  float:right;  
+}
 
-  #areatexto{
-    height:100px;
-  }
-  .tabs-title{
-    font-family: "Roboto Bold";
-    font-size: 30px !important;
-    text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 166px;
-  }
+.sizebtn{
+  width: 100%;
+}
 
-  .tabs-title a{
-    color:rgba(12, 61, 93, 0.85);
-  }
-  .tabs-title a:hover{
-    background-color:rgba(12, 61, 93, 0.85);
-    color:#fff;
-  }
-  .tabs-title:last-child{
-    float: left !important;
-  }
-  .tabs{
-    margin: 0 auto;
-  }
+#msg-form{
+  font-family: "Roboto Regular";
+  font-size: 25px;
+}
 
-  .ativaBlocoServico{
-    display:block;
-  }
+#h1form{
+  font-family: "Roboto Bold";
+  font-size: 40px;
+}
+.bordas-form{
+  border: 1px solid light-gray;
+  border-radius: 2px; 
+}
 
-  .is-active{
-    background-color: rgba(12, 61, 93, 0.85);
-    color:#fff !important;
-  }
-  #bannercontato{
-    background: url('../img/banners/thisbanners-contato.jpg') center top no-repeat;
-    /* Set a specific height /*/
-    height: 800px; 
+#areatexto{
+  height:100px;
+}
+.tabs-title{
+  font-family: "Roboto Bold";
+  font-size: 30px !important;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 166px;
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.tabs-title a{
+  color:rgba(12, 61, 93, 0.85);
+}
+.tabs-title a:hover{
+  background-color:rgba(12, 61, 93, 0.85);
+  color:#fff;
+}
+.tabs-title:last-child{
+  float: left !important;
+}
+.tabs{
+  margin: 0 auto;
+}
+
+.ativaBlocoServico{
+  display:block;
+}
+
+.is-active{
+  background-color: rgba(12, 61, 93, 0.85);
+  color:#fff !important;
+}
+#bannercontato{
+  background: url('../img/banners/thisbanners-contato.jpg') center top no-repeat;
+  /* Set a specific height /*/
+  height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
-  .large-4.column.bloco-iconesQuemSomos {
-    border: 1px solid rgba(0,0,0,0.1);
-    background-color: #fff;
-    width: 410px;
-    float: left;
-    margin-right: 35px;
+.large-4.column.bloco-iconesQuemSomos {
+  border: 1px solid rgba(0,0,0,0.1);
+  background-color: #fff;
+  width: 410px;
+  float: left;
+  margin-right: 35px;
 
-  }
+}
 
-  .bloco-iconesQuemSomos:first-child{
-    margin-left:25px;
-  }
+.bloco-iconesQuemSomos:first-child{
+  margin-left:25px;
+}
 
-  .bloco-iconesQuemSomos:last-child{
-    margin-right:24px !important;
-    float: left !important;
-  }
+.bloco-iconesQuemSomos:last-child{
+  margin-right:24px !important;
+  float: left !important;
+}
 
-  .bloco-iconesQuemSomos i {
-    margin: 15px 0 20px 0;  
-  }
+.bloco-iconesQuemSomos i {
+  margin: 15px 0 20px 0;  
+}
 
-  #example-tabs li a i.fa{
-    font-size: 30px;
-  }
+#example-tabs li a i.fa{
+  font-size: 30px;
+}
 
-  .imgBGdesktophome{
-    background: url('../img/desktopHomeImg.jpg') center top no-repeat;
-    height: 400px;
-  }
-  .imgsitehome{
-   background: url('../img/siteHome.jpg') center top no-repeat;
-   height: 400px;
- }
+.imgBGdesktophome{
+  background: url('../img/desktopHomeImg.jpg') center top no-repeat;
+  height: 400px;
+}
+.imgsitehome{
+  background: url('../img/siteHome.jpg') center top no-repeat;
+  height: 400px;
+}
 
  .mobilehome{
    background: url('../img/mobileHome.jpg') center top no-repeat;
