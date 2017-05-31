@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 [0525/221048.314:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: Tentou-se acessar um processo de saída.  (0xc000010a)
 [0525/221048.319:ERROR:process_info.cc(116)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits64> *): Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
 [0525/221048.319:ERROR:process_info.cc(559)] ReadProcessData failed
 [0525/221048.321:ERROR:process_reader_win.cc(142)] SuspendThread: Acesso negado. (0x5)
 [0525/221048.321:ERROR:exception_snapshot_win.cc(87)] thread ID 0 not found in process
 [0525/221048.321:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+=======
+[0526/130449:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0526/130449:ERROR:node_debugger.cc(86)] Cannot start debugger server
+>>>>>>> fe14c9b128f8f25dab713903aefb5cfddf044c3a
