@@ -1,6 +1,6 @@
-  body {
+  /*body {
     display: none;
-  }
+  }*/
   #cardsProdutos {
     opacity: 0;
   }
@@ -137,7 +137,7 @@
 .btnQuemSomos{
   float:right;
   margin-bottom:80px;
-=======
+}
 
 #change-icone{
   display:none;
@@ -319,14 +319,11 @@
 }
 
 .owl-height {
-  height: 300px
->>>>>>> fe14c9b128f8f25dab713903aefb5cfddf044c3a
+  height: 300px;
 }
 
 .quemSomosBl > h1{
   font-family: "Roboto Bold";
-
-<<<<<<< HEAD
 }
 .infoQSI i.fa {
   font-size: 50px;
@@ -483,7 +480,7 @@ p{
 .imgsitehome{
   background: url('../img/siteHome.jpg') center top no-repeat;
   height: 400px;
-=======
+}
 .bg-blue {
   background-color: #818eba;
 }
@@ -503,17 +500,13 @@ p{
 }
 
 .text-black {
-  color: #333;
-  
-}
+  color: #333; 
 }
 
 .text-black {
   color: #333;
 }
 
->>>>>>> fe14c9b128f8f25dab713903aefb5cfddf044c3a
-}
 
 .shadow {
   box-shadow: 2px 2px 5px #333;
@@ -945,15 +938,9 @@ footer div div:nth-child(1) p{
   font-family: "Roboto Regular";
   font-size: 16px;
 }
-<<<<<<< HEAD
-=======
-
 #banner img{
   display: none;
 }
-
-
-
 
 @media screen and (max-width: 1024px) {
   .large-4.column.bloco-iconesQuemSomos {
@@ -1250,5 +1237,3 @@ span {
   background-color: #fff;
 
 }*/
-}
->>>>>>> fe14c9b128f8f25dab713903aefb5cfddf044c3a
