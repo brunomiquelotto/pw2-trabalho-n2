@@ -6,111 +6,144 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fale Conosco</title>
-     <link rel="stylesheet" href="css/fontface.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
-    <link href="css/foundation.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/fa/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/fontface.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href="css/foundation.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/fa/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="img/fav.ico" />
 </head>
 
 <body>
-  <header id="topHeader" class="expanded row">
+   <header id="topHeader" class="expanded row">
+   <div class="row">        
+    <div id="divLogo" class="large-3 column">
+      <picture>
+       <a href="#"> <img id='logo' src="img/logopng.png" alt="this.veloper"></a>
+     </picture>
+   </div>
+   <div id="divMenuPrincipal" class="large-6 column">
+     <nav class="divNav">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="empresa.html">A Empresa</a></li>        
+        <li><a href="servico.html">Serviços</a></li>
+        <li><a href="contato.html">Fale Conosco</a></li>
+      </ul>
+    </nav> 
+  </div>   
+  <div id="rSociaisDiv" class="large-3 column">
+    <ul class="rSociais">
+      <a href="#"><li><i class="fa fa-facebook" aria-hidden="true"></i><br>Facebook</li></a>
+      <a href="#"><li><i class="fa fa-twitter" aria-hidden="true"></i><br>Twitter</li></a>      
+      <a href="#"><li><i class="fa fa-linkedin" aria-hidden="true"></i><br> Linked In</li></a>
+    </ul>
+  </div>    
+</header>
+<header id="topHeader" class="expanded row" style="display:none;  ">
+ <div class="row">        
+  <div id="divLogo" class="large-3 column">
+    <picture>
+     <a href="#"> <img id='logo' src="img/logopng.png" alt="this.veloper"></a>
+   </picture>
+ </div>
+ <div id="divMenuPrincipal" class="large-9 column">
+   <nav class="divNav">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">A Empresa</a></li>        
+      <li><a href="#">Serviços  </a></li>
+      <li><a href="#">Fale Conosco</a></li>
+    </ul>
+  </nav> 
+</div>      
+</header>
+  <section id="bannercontato" class="expanded row collapse">
+    <div class="large-12 column ">
+      <div id="bannercontato">
+      </div>
+    </div>
+  </section>
+  <section>
     <div class="row">
-      <div id="divLogo" class="large-3 column">
-        <picture>
-          <a href="#"> <img id='logo' src="img/logopng.png" alt="this.veloper"></a>
-        </picture>
-      </div>
-      <div id="divMenuPrincipal" class="large-5 column">
-        <nav class="divNav">
-          <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="empresa.html">Empresa e Produtos</a></li>
-            <li><a href="contato.html">Fale Conosco</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="divMenuInfo" class="large-4 columns">
-        <p><i class="fa fa-map-marker faInfoMenu" aria-hidden="true"></i><strong>Endereço:</strong> Rua 10a, 2605 , São Miguel.
-          Rio Claro - SP</p>
-          <p><i class="fa fa-map-marker faInfoMenu" aria-hidden="true"></i><strong>Email:</strong> contato@thisveloper.com.br</p>
-        </div>
-      </div>
-      
-    </header>
-     <section id="bannercontato" class="expanded row collapse">
-        <div class="large-12 column ">
-          <div id="bannercontato">
-          </div>
-        </div>
-      </section>
-    <section>
-      <div class="row">
       <div class="small-12 large-6 columns">
-        <h1 id="h1form">Formulário de Contato</h1><br/><br/><br/>
-        <p id="msg-form">Preencha o Formulário de contato ao lado que nossa equipe especializada entrará em contato com você o mais breve possível
-          !</p><br/><br/><br/>
-          <p style="font-size: 23px;">Endereço: Rua 10-A, 2605 - Vila São Miguel, Rio Claro - SP</p>
-          
+        <h1 id="h1form">Formulário de Contato</h1><br/><br/><br/><br/>
+        <p id="msg-form">Preencha o Formulário de contato ao lado que nossa equipe especializada entrará em contato com você o mais breve
+          possível !
+        </p><br/><br/><br/>
+        <p style="font-size: 23px;">Endereço: Rua 14, nº 202, Centro</p>
+
       </div>
 
-  
-        <div class="small-12 large-6 columns">
-          <form id="position-form">
+      <div class="small-12 large-6 columns">
+        <form id="position-form">
 
+          <div class="input-group">
+            <span class="input-group-label ">Nome: </span>
+            <input class="input-group-field bordas-form" type="text" placeholder="Nome">
+          </div>
 
-            <div class="input-group">
-              <span class="input-group-label ">Nome: </span>
-              <input class="input-group-field bordas-form" type="text" placeholder="Nome">
-            </div>
+          <div class="input-group">
+            <span class="input-group-label">E-mail: </span>
+            <input id="email" class="input-group-field bordas-form" type="text" placeholder="example@example.com">
+          </div>
 
+          <div class="input-group">
+            <span class="input-group-label">Assunto: </span>
+            <input id="assunto" class="input-group-field bordas-form" type="text" placeholder="Assunto">
+          </div>
 
-
-            <div class="input-group">
-              <span class="input-group-label">E-mail: </span>
-              <input id="email" class="input-group-field bordas-form" type="text" placeholder="example@example.com">
-            </div>
-
-
-
-
-
-            <div class="input-group">
-              <span class="input-group-label">Assunto: </span>
-              <input id="assunto" class="input-group-field bordas-form" type="text" placeholder="Assunto">
-            </div>
-
-
-
-
-            <div class="input-group">
-              <span class="input-group-label ">Departamento: </span>
-              <select style="height:50px;" class="nMargin bordas-form">
+          <div class="input-group">
+            <span class="input-group-label ">Departamento: </span>
+            <select style="height:50px;" class="nMargin bordas-form">
                 <option value="desenvolve">Desenvolvimento</option>
                 <option value="financeiro">Financeiro</option>
                 <option value="suporte">Suporte</option>
               </select>
-            </div>
+          </div>
+          <textarea id="areatexto" class="small-9 large-12 columns bordas-form" placeholder="Digite aqui seu texto"></textarea>
+          <a href="#" class="button expand small-9 large-10 columns sizebtn bordas-form">Enviar</a>
+        </form>
+      </div>
+  </section>
+  <section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.1243786190475!2d-47.564968732338734!3d-22.42434394881114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7da603fe1654f%3A0x95dc7d936ad897a5!2sR.+Quatorze%2C+202+-+Est%C3%A1dio%2C+Rio+Claro+-+SP%2C+13501-310!5e0!3m2!1spt-BR!2sbr!4v1496025863138" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+  </section>
 
+  <footer class="row expanded">
+      <div class="row">
+        <div class="large-4 column">
+          <img src="img/logopng.png" alt="">
+          <p>A this.veloper pode ser considerada uma empresa pioneira na internet, pois ela atua no ramo desde 1997, desenvolvendo diversos tipos de sistemas e aplicativos voltados para a internet.
 
+            A empresa especializou-se no desenvolvimento de: websites e sistemas.</p>
 
+          </div>
+          <div class="large-4 column">
+            <h3>Mapa do Site</h3>
+            <ul class="mapaSite">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="empresa.html">A Empresa</a></li>        
+             <li><a href="#">Serviços</a></li>
+             <li><a href="contato.html">Fale Conosco</a></li>
+           </ul>
+         </div>
+         <div class="large-4 column">
+           <ul class="contatoRodape">
+             <h3>Contato</h3>
+             <li><i class="fa fa-envelope-o" aria-hidden="true"></i>  Email: this.velopers@thisvelopers.com.br</li>
+             <li><i class="fa fa-map-marker" aria-hidden="true"></i>  Endereço: Rua 14, nº 202, Centro</li>        
+             <li><i class="fa fa-phone" aria-hidden="true"></i>  Telefone: 0800-3230</li>
+           </ul>
 
-
-            <textarea id="areatexto" class="small-9 large-12 columns bordas-form" placeholder="Digite aqui seu texto"></textarea>
-
-
-
-
-
-            <a href="#" class="button expand small-9 large-10 columns sizebtn bordas-form">Enviar</a>
-            
-          </form>
-        </div>
-      </section>
-      <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.6559842634326!2d-47.54402574424502!3d-22.37959378528241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7dbc178d008ad%3A0xacbcc9b43289bba8!2sR.+10-A%2C+2605+-+Vila+Sao+Miguel%2C+Rio+Claro+-+SP%2C+13506-401!5e0!3m2!1spt-BR!2sbr!4v1495582573864"
-          width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </section>
+         </div>
+       </div>
+     </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-</html> 
+
+</html>
